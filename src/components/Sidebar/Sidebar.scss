@@ -1,0 +1,23 @@
+.sidebar-wrapper {
+  width:15%;
+  background-color: #030321;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.sidebar-app-logo {
+  width: 8rem;
+  padding-bottom: 3rem;
+}
+
+.sidebar-footer {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .sidebar-item-label {
+    font-size: .8rem;
+  }
+}

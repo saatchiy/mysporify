@@ -1,0 +1,14 @@
+@import '../../index.scss';
+
+.home-content-wrapper {
+  padding-top: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: $main-background-color;
+}
+
+.home-content {
+  font-size: 2rem;
+  font-weight: 700;
+}

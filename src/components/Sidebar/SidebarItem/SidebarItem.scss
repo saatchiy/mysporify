@@ -1,0 +1,15 @@
+.sidebar-item-wrapper {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  cursor: pointer;
+
+  :hover {
+    color: red;
+  }
+}
+
+.sidebar-item-logo {
+  padding-right: 1rem;
+}

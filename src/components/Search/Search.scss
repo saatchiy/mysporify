@@ -1,0 +1,47 @@
+@import '../../index.scss';
+
+.search-wrapper {
+  width: 100%;
+  background-color: $main-background-color;
+
+  .text-input-wrapper {
+    background-color: #7d7b7b;
+    input {
+      width: 100%;
+      border: none;
+      color: gray;
+      border-radius: 0;
+      height: 3rem;
+      font-size: 3rem;      
+      caret-color: white;
+    }
+
+    input, textarea {
+      background-color: #7d7b7b;
+      color: white;
+    }
+  }
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.search-result-empty-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.search-result-empty-title, .search-result-empty-desc {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  color: white;
+}
+
+.search-result-empty-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
